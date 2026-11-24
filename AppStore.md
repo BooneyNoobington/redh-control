@@ -6,16 +6,12 @@ what App Store Connect asks for, ready to paste, and what is still open.
 
 ## Still open
 
-- **The pushes to GitHub.** The app is of no use without RedhAPI on the servers, and App Review
-  may ask where users get it: from `https://github.com/BooneyNoobington/redh-api`, once it's
-  pushed there, as `redh-control` and `redh-manager`.
-- **The privacy policy and the support page,** both public, both on GitHub once pushed:
-  - Privacy Policy URL: `https://github.com/BooneyNoobington/redh-control/blob/main/PRIVACY.md`;
-  - Support URL: `https://github.com/BooneyNoobington/redh-control`, whose README leads to RedhAPI.
-    It needs a way to reach you, such as the repository's issues.
 - **Screenshots,** below.
 - **The app's record:** in App Store Connect, Apps > + > New App, with the platforms iOS and
   macOS, the name, the bundle ID `com.redhwire.redhcontrol`, and an SKU such as `redh-control`.
+
+The three repositories are public on GitHub: `redh-control`, `redh-api` and `redh-manager`. So
+users can get RedhAPI, and the support page and the privacy policy are online, at the URLs below.
 
 ## The GPL and the App Store
 
@@ -37,10 +33,14 @@ it in the license notice.
 | Age rating | 4+: every question answered with None or No |
 | Keywords | homelab,server,wake on lan,wol,shutdown,self-hosted,nas,home server,router,power |
 | Promotional text | Wake your homelab's servers up, shut them down safely, and see at a glance which ones are running: from your iPhone, Apple Watch or Mac. |
+| Support URL | https://github.com/BooneyNoobington/redh-control |
 
 The limits are 30 characters for the subtitle, 100 for the keywords and 170 for the promotional
 text; these have 29, 80 and 136. Apple's guidelines advise against other companies' trademarks in
 the keywords, so FRITZ!Box appears in the description only.
+
+The support page is this repository: its README leads to RedhAPI, and its issues are where users
+reach you, as App Review expects of a support page.
 
 **Description:**
 
@@ -65,6 +65,9 @@ the keywords, so FRITZ!Box appears in the description only.
 Data collection: **No, we do not collect data from this app.** The apps talk only to the servers
 and FRITZ!Boxes the user sets up, directly. Nothing reaches the developer or anyone else.
 
+Privacy Policy URL: `https://github.com/BooneyNoobington/redh-control/blob/main/PRIVACY.md`, this
+repository's [PRIVACY.md](PRIVACY.md).
+
 ## Export compliance
 
 Each app's Info.plist has `ITSAppUsesNonExemptEncryption = NO`. The apps use only the encryption
@@ -75,10 +78,10 @@ doesn't ask about encryption then.
 
 Sign-in required: no. Notes for the reviewer:
 
-> Redh Control controls the user's own servers, which run a small service, RedhAPI. To try the app
-> without servers, tap Try the Demo on the first screen, on iPhone, Apple Watch or Mac. It shows a
-> made-up homelab, and every command answers as a real server would. End Demo returns to the empty
-> setup.
+> Redh Control controls the user's own servers, which run a small, free service, RedhAPI:
+> https://github.com/BooneyNoobington/redh-api. To try the app without servers, tap Try the Demo
+> on the first screen, on iPhone, Apple Watch or Mac. It shows a made-up homelab, and every
+> command answers as a real server would. End Demo returns to the empty setup.
 
 ## Screenshots
 
