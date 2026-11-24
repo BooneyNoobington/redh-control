@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Written after AVM's TR-064 description of the Hosts service, not captured from a box. -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body>
+<u:X_AVM-DE_WakeOnLANByMACAddressResponse xmlns:u="urn:dslforum-org:service:Hosts:1"></u:X_AVM-DE_WakeOnLANByMACAddressResponse>
+</s:Body>
+</s:Envelope>

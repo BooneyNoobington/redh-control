@@ -1,0 +1,38 @@
+{
+  "cpu": {
+    "count": 8,
+    "usage_percent": 7.3,
+    "load": [0.42, 0.38, 0.35],
+    "pressure_percent": 1.25
+  },
+  "temperature": {
+    "celsius": 46.0,
+    "sensor": "coretemp: Package id 0"
+  },
+  "power": {
+    "watts": 12.4,
+    "sensor": "package-0",
+    "problem": null
+  },
+  "memory": {
+    "total_bytes": 16384000000,
+    "available_bytes": 9216000000,
+    "pressure_percent": 0.0
+  },
+  "swap": {
+    "total_bytes": 4096000000,
+    "free_bytes": 3584000000
+  },
+  "disks": [
+    {
+      "path": "/",
+      "total_bytes": 249999998976,
+      "free_bytes": 180999999488
+    },
+    {
+      "path": "/srv/data",
+      "total_bytes": 4000000000000,
+      "free_bytes": 1619999997952
+    }
+  ]
+}

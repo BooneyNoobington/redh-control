@@ -1,0 +1,26 @@
+{
+  "root": "/opt/podman",
+  "apps": [
+    {
+      "name": "nextcloud",
+      "layout": "quadlet/",
+      "units": 3,
+      "services": 2,
+      "active": 2,
+      "running": 1,
+      "installed": "in sync",
+      "caddy": 1
+    }
+  ],
+  "containers": {
+    "running": 2,
+    "in_no_app": [
+      {
+        "name": "scratch",
+        "image": "docker.io/library/busybox:1",
+        "unit": null
+      }
+    ]
+  },
+  "warnings": []
+}

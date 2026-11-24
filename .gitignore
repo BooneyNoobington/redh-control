@@ -1,0 +1,11 @@
+.DS_Store
+
+# Swift packages and Xcode
+.build/
+.swiftpm/
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Your own Xcode settings, such as the signing team
+RedhControl/Config/Local.xcconfig

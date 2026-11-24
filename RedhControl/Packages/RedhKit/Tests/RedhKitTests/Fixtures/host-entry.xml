@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Written after AVM's TR-064 description of the Hosts service, not captured from a box. -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body>
+<u:GetSpecificHostEntryResponse xmlns:u="urn:dslforum-org:service:Hosts:1">
+<NewIPAddress>192.168.178.20</NewIPAddress>
+<NewAddressSource>DHCP</NewAddressSource>
+<NewLeaseTimeRemaining>0</NewLeaseTimeRemaining>
+<NewInterfaceType>Ethernet</NewInterfaceType>
+<NewActive>1</NewActive>
+<NewHostName>nas</NewHostName>
+</u:GetSpecificHostEntryResponse>
+</s:Body>
+</s:Envelope>

@@ -1,0 +1,16 @@
+{
+  "name": "SERVER",
+  "version": "0.2.0",
+  "boot_id": "10ae18e3-9be7-42df-a9d2-9ecd0c34bf0d",
+  "uptime_seconds": 273813,
+  "shutdown": {
+    "ready": true,
+    "problem": null,
+    "pending": false,
+    "last_error": null
+  },
+  "wake": {
+    "broadcast": "255.255.255.255",
+    "port": 9
+  }
+}

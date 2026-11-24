@@ -1,0 +1,7 @@
+// Signing for both apps. The team is personal, so it lives in Local.xcconfig next to this file,
+// which git ignores:
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// Xcode's Signing & Capabilities tab would write it into project.pbxproj instead.
+#include? "Local.xcconfig"
